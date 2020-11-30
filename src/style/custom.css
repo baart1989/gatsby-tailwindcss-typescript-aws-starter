@@ -1,0 +1,20 @@
+@layer base {
+  button {
+    @apply focus:outline-none;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-2 py-3 text-sm font-medium rounded-md shadow-sm lg:px-8;
+  }
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-400;
+  }
+  .btn-secondary {
+    @apply bg-secondary-500 hover:bg-secondary-400;
+  }
+  .btn-default {
+    @apply bg-gray-200 hover:bg-gray-300 text-gray-900 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-800;
+  }
+}
