@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const colors = require('tailwindcss/colors');
-const typography = require('@tailwindcss/typography');
 
 module.exports = isProd => {
   return {
@@ -22,11 +21,8 @@ module.exports = isProd => {
           secondary: colors.teal,
           gray: colors.gray,
         },
-        fontFamily: {
-          // brand: ['Gilroy', 'sans-serif'],
-        },
       },
     },
-    plugins: [typography],
+    plugins: [require('tailwindcss/colors'), require('@tailwindcss/forms')],
   };
 };

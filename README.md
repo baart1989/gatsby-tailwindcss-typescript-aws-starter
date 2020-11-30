@@ -20,7 +20,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```shell
     # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
+    gatsby new my-hello-world-starter https://github.com/baart1989/gatsby-tailwindcss-typescript-aws-starter
     ```
 
 1.  **Start developing.**

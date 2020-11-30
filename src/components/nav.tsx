@@ -14,7 +14,7 @@ const isRunningInBrowser = () => {
 
 export const Nav = () => {
   const [isDarkMode, setDarkMode] = useState(
-    localStorage && localStorage.getItem('theme') === 'theme-dark',
+    isRunningInBrowser() && localStorage.getItem('theme') === 'theme-dark',
   );
 
   const toggleTheme = () => {
@@ -38,7 +38,7 @@ export const Nav = () => {
             <Logo className="w-24" />
           </Link>
         </div>
-        <div>Gatsby + TypeScript + TailwindCSS</div>
+        <div>Gatsby + AWS + TypeScript + TailwindCSS</div>
         <button className="outline-none" onClick={toggleTheme}>
           {isDarkMode && <Moon />}
           {!isDarkMode && <Sun />}

@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-tailwindcss-typescript-starter",
+  "name": "gatsby-tailwindcss-typescript-aws-starter",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
@@ -15,6 +15,9 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@aws-amplify/api": "^3.2.13",
+    "@aws-amplify/auth": "^3.4.13",
+    "@tailwindcss/forms": "^0.2.1",
     "gatsby": "2.23.3",
     "gatsby-background-image": "^1.1.1",
     "gatsby-image": "^2.3.1",
